@@ -4,6 +4,10 @@ All notable changes recorded here. [Keep a Changelog](https://keepachangelog.com
 
 ## [1.11.2] — Unreleased
 
+### Added
+
+- Package now ships XML documentation files (`.xml`) alongside the assembly, so consumers get IntelliSense and API docs. (Mirrors [tamp-build/tamp#3](https://github.com/tamp-build/tamp/pull/50).)
+
 ### Changed
 
 - **TAM-254 — Repository migration.** Moved from the main `tamp` monorepo into this satellite repo. Package ID, namespace, public API, and version line unchanged — adopters see no break.
